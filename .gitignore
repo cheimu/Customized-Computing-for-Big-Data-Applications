@@ -1,0 +1,11 @@
+*.dat
+*.log
+.*.sw?
+.Xil
+_xocc_*
+awsver.txt
+dot_prod_host
+emconfig.json
+helloworld
+host
+xclbin
