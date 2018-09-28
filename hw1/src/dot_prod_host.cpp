@@ -1,5 +1,6 @@
-#include "xcl2.hpp"
+#include <cmath>
 #include <vector>
+#include "xcl2.hpp"
 
 using std::cout;
 using std::endl;
@@ -71,7 +72,8 @@ int main(int argc, char** argv)
   
   // Compare the results of the Device to the simulation
   bool fail = false;
-  if (source_hw_results[0] != source_sw_results[0]) {
+  if (fabs(source_hw_results[0] - source_sw_results[0]) /
+      source_sw_results[0] > 1e-4) {
     cout << "Error: Result mismatch" << endl;
     cout << "CPU result = " << source_sw_results[0]
        << " Device result = " << source_hw_results[0] << endl;
