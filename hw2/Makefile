@@ -11,7 +11,7 @@
 VHLS_PATH := $(dir $(shell which vivado_hls))/..
 VHLS_INC ?= ${VHLS_PATH}/include
 
-COMMON_REPO := ../../../..
+COMMON_REPO := ../../..
 
 # wide Memory Access Application
 include $(COMMON_REPO)/utility/boards.mk
