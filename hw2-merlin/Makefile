@@ -15,7 +15,7 @@ EXE_ARGS= ./data
 
 CXX=g++
 CXX_INC_DIRS=-I ./ -I $(MACH_COMMON_DIR)
-CXX_FLAGS+= $(CXX_INC_DIRS) -Wall -O3
+CXX_FLAGS+= $(CXX_INC_DIRS) -Wall -O3 -std=c++11
 ifeq ($(VENDOR),XILINX)
 CXX_FLAGS +=-lstdc++ -L$(XILINX_SDX)/lib/lnx64.o
 endif
