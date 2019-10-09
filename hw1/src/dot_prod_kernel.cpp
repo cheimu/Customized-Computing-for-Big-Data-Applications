@@ -1,5 +1,7 @@
 #include <assert.h>
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 extern "C" {
 
 void dot_prod_kernel(const float* a, const float* b, float* c, const int num_elems) {
@@ -23,21 +25,32 @@ void dot_prod_kernel(const float* a, const float* b, float* c, const int num_ele
     local_b[i] = *b;
     a++;
     b++; 
-  }  
-  float local_c[4096];
-#pragma HLS ARRAY_PARTITION variable=local_a block factor=4 dim=1
-#pragma HLS ARRAY_PARTITION variable=local_b block factor=4 dim=1
-#pragma HLS ARRAY_PARTITION variable=local_c block factor=4 dim=1
+  }
+  //memcpy(&local_a[0], const_cast<float*>(a), sizeof(float)*4096);
+  //memcpy(&local_b[0], const_cast<float*>(b), sizeof(float)*4096);  
+  //float local_c[4096];
+  float res = 0;
+#pragma HLS ARRAY_PARTITION variable=local_a block factor=256 dim=1
+#pragma HLS ARRAY_PARTITION variable=local_b block factor=256 dim=1
+//#pragma HLS ARRAY_PARTITION variable=local_c block factor=4 dim=1
+//#pragma HLS ARRAY_PARTITION variable=local_a complete dim=1
+//#pragma HLS ARRAY_PARTITION variable=local_b complete dim=1  
   for (int i = 0; i < num_elems; i++) {
 #pragma HLS UNROLL
-    local_c[i] = local_a[i] * local_b[i];
+
+    float temp = local_a[i] * local_b[i];
+    
+#pragma HLS PIPELINE
+    res = res + temp;
   }
   
-  float res = 0;
-  for (int i = 0 ; i < num_elems; i++) {
+  //float res = 0;
+/*  for (int i = 0 ; i < num_elems; i++) {
 #pragma HLS PIPELINE
     res = local_c[i] + res;
   }
+  *c = res;
+}*/
   *c = res;
 }
 
