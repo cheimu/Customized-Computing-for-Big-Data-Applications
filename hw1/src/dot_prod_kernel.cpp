@@ -20,7 +20,7 @@ void dot_prod_kernel(const float* a, const float* b, float* c, const int num_ele
    ***************************/
   float local_a[4096];
   float local_b[4096];
-  for (int i = 0; i < num_elems; i++) {
+  for (int i = 0; i < num_elems; i++) {    
     local_a[i] = *a;
     local_b[i] = *b;
     a++;
@@ -28,30 +28,51 @@ void dot_prod_kernel(const float* a, const float* b, float* c, const int num_ele
   }
   //memcpy(&local_a[0], const_cast<float*>(a), sizeof(float)*4096);
   //memcpy(&local_b[0], const_cast<float*>(b), sizeof(float)*4096);  
-  //float local_c[4096];
+  float local_c[4096];
   float res = 0;
-#pragma HLS ARRAY_PARTITION variable=local_a block factor=256 dim=1
-#pragma HLS ARRAY_PARTITION variable=local_b block factor=256 dim=1
-//#pragma HLS ARRAY_PARTITION variable=local_c block factor=4 dim=1
+#pragma HLS ARRAY_PARTITION variable=local_a block factor=128 dim=1
+#pragma HLS ARRAY_PARTITION variable=local_b cyclic factor=128 dim=1
+#pragma HLS ARRAY_PARTITION variable=local_c cyclic factor=128 dim=1
 //#pragma HLS ARRAY_PARTITION variable=local_a complete dim=1
 //#pragma HLS ARRAY_PARTITION variable=local_b complete dim=1  
   for (int i = 0; i < num_elems; i++) {
 #pragma HLS UNROLL
-
-    float temp = local_a[i] * local_b[i];
-    
 #pragma HLS PIPELINE
-    res = res + temp;
+    //float temp = local_a[i] * local_b[i];
+    local_c[i] = local_a[i] * local_b[i];
+    
+
+#pragma HLS UNROLL
+//#pragma HLS PIPELINE
+   // res = res + temp;
+   //res = res + local_c[i];    
   }
   
   //float res = 0;
-/*  for (int i = 0 ; i < num_elems; i++) {
+  float ans[16] = {0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0};
+#pragma HLS ARRAY_PARTITION variable=ans complete dim=1
+//#pragma HLS UNROLL
+  LOOP_SPECIAL:for (int i = 0 ; i < 16; i++) {
+#pragma HLS UNROLL
 #pragma HLS PIPELINE
-    res = local_c[i] + res;
+	for (int j = 0;j < 256; j++) {
+#pragma HLS UNROLL
+#pragma HLS PIPELINE
+		ans[i] += local_c[i*256+j];
+	}
+   // ans[i] = ans[i] + local_c[i*256];
+    //res = local_c[i] + res;
   }
-  *c = res;
-}*/
+  
+  for (int i = 0; i < 16; i++) {
+#pragma HLS UNROLL
+#pragma HLS PIPELINE     
+    res += ans[i];
+  }
+  
   *c = res;
 }
+  //*c = res;
+
 
 }  // extern "C"
