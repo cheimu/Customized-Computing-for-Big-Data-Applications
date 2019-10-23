@@ -1,0 +1,189 @@
+INFO: [SDx-EM 01] Hardware emulation runs simulation underneath. Using a large data set will result in long simulation times. It is recommended that a small dataset is used for faster execution. This flow does not use cycle accurate models and hence the performance data generated is approximate.
+INFO: [SDx-EM 22] [Wall clock time: 22:47, Emulation time: 0.918515 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 534.375 KB             WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.094 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 22:52, Emulation time: 1.86965 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 1082.812 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.219 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 22:57, Emulation time: 2.79341 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 1617.188 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.344 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:02, Emulation time: 3.73514 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 2165.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.469 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:07, Emulation time: 4.65828 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 2692.250 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.594 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:12, Emulation time: 5.58561 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 3232.500 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.688 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:18, Emulation time: 6.53624 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 3781.375 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.812 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:23, Emulation time: 7.45649 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 4303.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 0.938 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:28, Emulation time: 8.37785 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 4837.500 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.062 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:33, Emulation time: 9.30438 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 5371.875 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.188 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:38, Emulation time: 10.2148 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 5903.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.281 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:43, Emulation time: 11.0792 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 6398.438 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.406 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:49, Emulation time: 11.9822 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 6918.750 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.531 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:54, Emulation time: 12.9334 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 7467.188 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.656 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 23:59, Emulation time: 13.8446 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 7996.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.750 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:04, Emulation time: 14.6863 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 8479.688 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 1.875 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:09, Emulation time: 15.6302 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 9028.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.000 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:14, Emulation time: 16.574 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 9569.125 KB            WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.125 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:20, Emulation time: 17.5097 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 10110.938 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.219 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:25, Emulation time: 18.4217 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 10631.250 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.344 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:30, Emulation time: 19.3411 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 11165.625 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.469 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:35, Emulation time: 20.262 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 11700.000 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.594 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:40, Emulation time: 21.1866 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 12234.375 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.688 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:45, Emulation time: 22.1408 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 12782.812 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.812 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:51, Emulation time: 23.089 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 13331.250 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 2.938 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 00:56, Emulation time: 24.0342 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 13879.688 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.062 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:01, Emulation time: 24.9875 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 14428.125 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.188 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:06, Emulation time: 25.9047 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 14951.875 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.312 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:11, Emulation time: 26.8562 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 15502.750 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.438 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:16, Emulation time: 27.808 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 16054.375 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.562 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:22, Emulation time: 28.7603 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 16607.125 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.688 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:27, Emulation time: 29.7112 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 17156.250 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.781 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:32, Emulation time: 30.6645 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 17704.688 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 3.906 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:37, Emulation time: 31.6168 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 18253.125 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.031 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:42, Emulation time: 32.5703 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 18801.562 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.156 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:47, Emulation time: 33.5201 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 19350.000 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.281 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:53, Emulation time: 34.4738 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 19898.438 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.406 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 01:58, Emulation time: 35.4285 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 20446.875 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.531 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:03, Emulation time: 36.3792 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 20995.312 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.656 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:08, Emulation time: 37.331 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 21543.750 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.781 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:13, Emulation time: 38.2807 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 22092.188 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 4.906 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:18, Emulation time: 39.2333 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 22642.875 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.031 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:24, Emulation time: 40.1925 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 23203.125 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.125 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:29, Emulation time: 41.1442 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 23751.562 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.250 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:34, Emulation time: 42.0663 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 24285.938 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.375 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:39, Emulation time: 43.0197 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 24834.375 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.500 KB        
+
+INFO: [SDx-EM 22] [Wall clock time: 02:44, Emulation time: 43.8609 ms] Data transfer between kernel(s) and global memory(s)
+digitrec_kernel_1:m_axi_gmem-DDR          RD = 25312.500 KB           WR = 0.000 KB        
+digitrec_kernel_1:m_axi_gmem2-DDR          RD = 0.000 KB               WR = 5.625 KB        
+
